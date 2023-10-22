@@ -1,0 +1,11 @@
+name = input('Введите ваше имя: ')
+surname = input('Введите вашу фамилию: ')
+year_of_birth = int(input('Введите год рождения: '))
+question1 = input('Нравится ли вам наш курс? ')
+question2 = input('что вы ожидаете в дальнейших занятиях? ')
+
+print('Вы заполнили такие даннные: ')
+print('Вас зовут', name, surname)
+print('Вам', 2023-year_of_birth, 'лет' )
+print('Ваш ответ к первому вопросу:', question1)
+print('Ваш ответ ко второму вопросу:', question2)
